@@ -1,0 +1,269 @@
+@charset "utf-8";
+body {
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 900px;
+    background-color: #000000;
+}
+.header {
+    margin-left: 229px;
+    margin-top: -8px;
+}
+.menu {
+    list-style: none;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    display: flex;
+    font-size: xx-small;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    height: 22px;
+    margin-top: -4px;
+    text-align: left;
+    margin-left: 229px;
+    margin-right: -156px;
+    width: 707px;
+    background-image: url(Bai%204.3%20-%20Beauty.com/Images/bg.gif);
+    background-repeat: repeat-y;
+}
+body hr {
+    width: 711px;
+    margin-top: -8px;
+
+}
+
+.menu li a {
+    display: block;
+    padding: 14px 5px;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: Tahoma;
+    font-size: 14px;
+    margin-top: -6px;
+}
+.left .picleft .cons {
+
+
+}
+
+.menu a {
+    display: block;
+    padding-right: 12.2px;
+    padding-left: 13.2px;
+    padding-bottom: 6px;
+    text-decoration: none;
+}
+.menu li {
+    text-align: left;
+    margin-top: -6px;
+}
+.menu2 {
+    list-style: none;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    display: flex;
+    font-size: xx-small;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    height: 22px;
+    margin-top: -8px;
+    text-align: left;
+    margin-left: 229px;
+    margin-right: -156px;
+    width: 707px;
+    background-image: url(Bai%204.3%20-%20Beauty.com/Images/bg.gif);
+    background-repeat: repeat-y;
+}
+.menu2 li a {
+    display: block;
+    padding: 14px 5px;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: Tahoma;
+    font-size: 12px;
+    margin-top: -6px;
+}
+.menu2 a {
+    display: block;
+    padding-right: 12.2px;
+    padding-left: 13.2px;
+    padding-bottom: 6px;
+    text-decoration: none;
+}
+.menu2 li {
+    text-align: left;
+    margin-top: -6px;
+}
+.main .left {
+    padding-left: 13px;
+    width: 137px;
+    height: 613px;
+    margin-left: 229px;
+    margin-top: -8px;
+    background-image: url(Bai%204.3%20-%20Beauty.com/Images/bg.gif);
+}
+.main .left .picleft {
+    padding-top: 23px;
+
+}
+.left .picleft .cons {
+    height: 20px;
+    background-color: #FBD0D0;
+    font-family: tahoma;
+    font-size: 14px;
+    margin-top: 0px;
+    padding-left: 20px;
+}
+.left .picleft #news {
+    height: 20px;
+    background-color: #FBD0D0;
+    font-family: tahoma;
+    margin-top: 18px;
+    padding-left: 40px;
+    font-size: 14px;
+	
+}
+
+
+.left .picleft .paracons {
+  overflow: hidden;
+	position: relative;
+    background-color: #DE959B;
+    width: 137px;
+    margin-top: -19px;
+}
+.picleft .paracons #textcons {
+    font-family: arial;
+    color: #FFFEFE;
+    font-size: 12px;
+	animation: scroll 5s linear infinite;
+}
+@keyframes scroll{
+	from{
+		transform: translateY(100%);
+	}
+	to{
+		transform: translateY(-100%);
+	}
+}
+.left .picleft .paracons:hover #textcons {
+	animation-play-state: paused;
+		
+}
+
+.left .picleft .parnews {
+    height: 119px;
+    background-color: #DE959B;
+    margin-top: -20px;
+    color: #000000;
+    font-family: tahoma;
+    font-size: 12px;
+    padding-top: 19px;
+	resize: none;
+	overflow: auto;
+    overflow-y: scroll;
+}
+.left .picleft .parnews::-webkit-scrollbar {
+	width: 12px;
+}
+.left .picleft .parnews::-webkit-scrollbar-thumb {
+	background-color: #efc1c4;
+	
+}
+.left .picleft .parnews::-webkit-scrollbar-track {
+	background-color: #de959c;
+	
+}
+.left .picleft .parnews::-webkit-scrollbar-button {
+	background-color: #de959c;
+	
+}
+.left .picleft .parnews::-webkit-scrollbar-thumb:hover {
+	background-color: #e9c1c4;
+	
+}
+.left .picleft .parnews::-webkit-scrollbar-thumb:active {
+	background-color: #efc1c4;
+	
+}
+
+.menu a:hover{
+	color:#FFF700;
+}
+.menu2 a:hover{
+	color:#FFF700;
+}
+.left .picleft .giua {
+    height: 529px;
+    margin-left: 138px;
+    margin-top: -489px;
+    width: 428px;
+    background-color: #000000;
+    padding-right: 133px;
+}
+.picleft .giua .pics {
+    color: #FFFFFF;
+    margin-left: 31px;
+}
+.giua .pics #text {
+    margin-top: 1px;
+    font-size: 11px;
+    font-family: tahoma;
+    text-align: center;
+    margin-left: -288px;
+}
+.picleft .giua .pic2 {
+    margin-left: 172px;
+    margin-top: -156px;
+}
+.giua .pic2 #text2 {
+    margin-top: 1px;
+    font-size: 11px;
+    font-family: tahoma;
+    text-align: center;
+    margin-left: -148px;
+    color: #FFFFFF;
+}
+.picleft .giua .pic3 {
+    margin-left: 312px;
+    margin-top: -157px;
+}
+.giua .pic3 #text3 {
+    margin-top: 1px;
+    font-size: 11px;
+    font-family: tahoma;
+    text-align: center;
+    margin-left: -10px;
+    color: #FFFFFF;
+}
+.picleft .giua .pic4 {
+    margin-left: 457px;
+    margin-top: -156px;
+}
+.giua .pic4 #text4 {
+    margin-top: 0px;
+    font-size: 11px;
+    font-family: tahoma;
+    text-align: center;
+    margin-left: -12px;
+    color: #FFFFFF;
+    width: 121px;
+}
+.left .picleft #makeup:hover {
+	content: url("Bai 4.3 - Beauty.com/Images/makeUp_over.gif")
+}
+.left .picleft #formen:hover {
+	content: url("Bai 4.3 - Beauty.com/Images/for_men_over.gif")
+}
+.left .picleft #hair:hover {
+	content: url("Bai 4.3 - Beauty.com/Images/hair_care_over.gif")
+}
+.left .picleft #fra:hover {
+	content: url("Bai 4.3 - Beauty.com/Images/fragrance_over.gif")
+}
+.left .picleft #sun:hover {
+	content: url("Bai 4.3 - Beauty.com/Images/sun_body_over.gif")
+}
